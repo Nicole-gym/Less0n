@@ -1,0 +1,140 @@
+.nav-child{
+    margin-top: 60px;
+    max-width: 1140px;
+    margin: 60px auto;
+    margin-bottom: 0px;
+    background-color: #fff !important;
+    padding-left: 6px;
+    padding-right: 0;
+    border-bottom: 2px solid #eae9e9;
+}
+
+#sort-alphabetical,
+#sort-school{
+    max-width: 1140px;
+    margin: 10px auto;
+    text-align: center;
+}
+
+#sort-alphabetical a,
+#sort-school a{
+    margin-right: 50px;
+    margin-left: 50px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+/*department card*/
+#alphabetical-card,
+#school-card{
+    max-width: 1140px;
+    margin: 10px auto;
+}
+.card{
+    width: 350px;
+    display: inline-block;
+    border-radius:5px;
+    border-left: 2px solid #e67e22;
+    margin-bottom: 20px;
+    -webkit-box-shadow: 0 3px 3px #efefef;
+    box-shadow: 0 3px 3px #efefef;
+    height: 120px;
+    
+}
+
+.selected{
+    color: #e67e22 !important;
+}
+
+
+.card-title{
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.btn{
+   font-weight: 300; 
+}
+
+.btn-card{
+    background-color: #55affc;
+    border: none;
+}
+
+#backgorung-card{
+    height: 80vh;
+    background-color: #f86524;
+    z-index: 0;
+/*
+    width: 1140px;
+    margin: 0 auto;
+*/
+}
+
+.leaderboard-card{
+    height: 80vh;
+/*    background-image: linear-gradient(to right bottom, rgba(2, 2, 2, 0.87),rgba(228, 228, 228, 0.76)), url(../img/cu.jpg);*/
+
+    
+    -webkit-clip-path:polygon(0 0, 100% 0, 100% 40%, 0 100%);
+
+    
+    clip-path:polygon(0 0, 100% 0, 100% 40%, 0 100%);
+    background-color: #0a1a3e;
+    padding-top: 150px;
+/*    position: relative;*/
+}
+#all-card{
+    position: relative;
+    width: 100%;
+/*    margin:-1000px auto;*/
+}
+
+#back-card{
+    margin: -550px auto;
+    height: 400px;
+    width: 1000px;
+    background-color: #f86524;
+    -webkit-box-shadow: 0 3px 3px #efefef;
+    box-shadow: 0 3px 3px #efefef;
+    -webkit-clip-path:polygon(0 0, 90% 0, 90% 100%, 0 100%);
+    clip-path:polygon(0 0, 90% 0, 90% 100%, 0 100%);
+/*    z-index: 999999;*/
+}
+
+#front-card{
+    margin: 200px auto;
+    margin-bottom: 0;
+    height: 400px;
+    width: 900px;
+    background-color: #242c3e;
+    -webkit-clip-path:polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    clip-path:polygon(0 0, 100% 0, 100% 100%, 0 100%);
+/*    box-shadow: 0 30px 30px #f8f7f7 !important;*/
+/*    z-index: 999999;*/
+    padding-top: 1px;
+}
+
+.each-bar{
+    display: inline-block;
+}
+
+.leaderboard-number{
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+    color: #000;
+    height: 40px;
+    width: 40px;
+    border-radius: 40px;
+    background-color: #fff;
+    vertical-align: middle;
+    margin: 10px 20px;
+    padding-top: 5px;
+}
+
+.leaderboard-name{
+    display: inline-block;
+    color: #fff;
+}
